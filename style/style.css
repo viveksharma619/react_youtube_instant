@@ -1,0 +1,40 @@
+.search-bar{
+    margin:20px;
+    text-align: center;
+}
+.search-bar input
+{
+    width: 75%;
+}
+.video-item img{
+    max-width: 64px;
+}
+.video-detail .detail{
+    margin-top: 10px;
+    padding:10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.list-group-item{
+    cursor: pointer;
+}
+.list-group-item:hover{
+    background-color: #eee;
+}
+.hero{
+    background-image: url('https://lh3.googleusercontent.com/qzeDHEH4itIbIKtU0XAr-VMB7bKYCG4wsgWoJno2PaHuTxzMAPaWwPHMdvewrwgNcfq3Pdq8pg=s630-fcrop64=1,00410000fef7ffff');
+    height: 200px;
+    background-repeat: repeat-x;
+	animation: animatedBackground 68s linear infinite;
+}
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+.hero > h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    line-height: 200px;
+    
+}
